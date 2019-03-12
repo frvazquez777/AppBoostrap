@@ -1,0 +1,39 @@
+$principal: blue;
+$secundario: orange;
+$texto: red;
+$verde: green;
+
+.ejemplo {
+    background: $principal;
+    color: $texto;
+    border: 5px solid $secundario;
+    font-size: 1em;
+}
+
+.container {
+    border: 1px solid $texto;
+}
+
+.row {
+    border: 1px solid $principal;
+}
+
+.row > * {
+    border: 3px solid $verde;
+}
+
+.servicios-v {
+    border: 1px solid blue;
+    height: 300px;
+
+}
+.servicios-v > * {
+    border: 2px solid red;
+}
+.servicios {
+    border: 1px solid blue;
+}
+
+.servicios > * {
+    border: 2px solid red;
+}
